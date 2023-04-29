@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(159,196,212);
+    /* background-image: linear-gradient(180deg, rgb(91, 171, 206) 10%, rgb(0, 47, 77) 100%); */
+    background-image: url(./images/SL-042221-42420-09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    height: 90%;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+.heading{
+    background-image: url(./images/rain-drops-window-16241096.jpg);
+    font-size: 90px;
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: opacity(70%);
+}
+
+@media(width <= 900px){
+    .searchbar{
+        width: 80%;
+    }
+}
+
+@media(width > 901px){
+    .searchbar{
+        width: 40%;
+    }
+}
+
+.weatherDatas{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 700px;
+    justify-content: space-between;
+}
+
+
+.wlocdata{
+    width: 50%;
+    background-color: #03355c5e;
+    color: #cecece;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #002c4d;
+    margin: 10px;
+}
+
+.wdata{
+    color: #cecece;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #002c4d;
+    padding: 10px;
+    margin: 10px;
+}
